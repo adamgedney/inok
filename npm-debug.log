@@ -1,0 +1,108 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/agedney/.nvm/versions/node/v6.12.2/bin/node',
+1 verbose cli   '/Users/agedney/.nvm/versions/node/v6.12.2/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.12.2
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/agedney/Sites/inok',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/agedney/.npm/inok/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/agedney/.npm correctMkdir not in flight; initializing
+10 info lifecycle inok@1.0.0~prepublish: inok@1.0.0
+11 silly lifecycle inok@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/agedney/.npm/inok/1.0.0/package.tgz',
+12 verbose tar pack   '/Users/agedney/Sites/inok' ]
+13 verbose tarball /Users/agedney/.npm/inok/1.0.0/package.tgz
+14 verbose folder /Users/agedney/Sites/inok
+15 verbose addLocalTarball adding from inside cache /Users/agedney/.npm/inok/1.0.0/package.tgz
+16 verbose correctMkdir /Users/agedney/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd inok@1.0.0
+18 verbose afterAdd /Users/agedney/.npm/inok/1.0.0/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/agedney/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/agedney/.npm/inok/1.0.0/package/package.json written
+21 silly publish { name: 'inok',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: 'A Javacript utility library',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/adamgedney/inok.git' },
+21 silly publish   author: '',
+21 silly publish   license: 'ISC',
+21 silly publish   bugs: { url: 'https://github.com/adamgedney/inok/issues' },
+21 silly publish   homepage: 'https://github.com/adamgedney/inok#readme',
+21 silly publish   gitHead: '269d8ed82b5ebb2fa0c102de3ea384d18f324490',
+21 silly publish   readme: '# Question: What is this folder and all these files?\n\nAnswer: small utility set used in functional programs organized by category files\n\n\n## Function Index\n### Dates\n *  date_humanToUTC\n *  date_MMddYYYY\n *  date_yyyymmdd\n * date_ddMonthyyTime\n\n### Events\n *  evt_listen\n *  evt_trigger\n\n### Filteredlist Preferences Helpers\n *  prefs_merge\n *  prefs_createInitial\n\n### LocalStorage\n *  storage_getItem\n *  storage_setItem\n\n### Objects\n *  obj_dotToLiteral\n *  obj_deepMerge\n *  obj_createDeepFromDotNames\n\n### Strings\n *  string_capFirstLetter\n *  string_validate\n\n### Urls\n *  url_set\n *  url_get\n *  url_makeQueryString\n *  url_writeQueryString\n *  url_clearQueryString\n *  url_readQueryString\n *  url_parseParams\n *  url_getParam\n *  url_getPageParams\n *  url_makeObjFromQueryString\n\n ### Logs\n *  log\n *  l\n\n ### Arrays\n *  array_toCSV\n\n### Speech\n *  speech_playMessage\n *  speech_listen\n\n### Slugs\n *  slug_unmake\n *  slug_make\n\n### Regex Patterns\n *  regex_smpte_exact\n *  regex_smpte\n\n ### Async fns\n *  async_waitForVar\n\n ### Number fns\n *  num_isEven',
+21 silly publish   readmeFilename: 'readme.md',
+21 silly publish   _id: 'inok@1.0.0',
+21 silly publish   _shasum: '7ed8dcd33a3d0e16b9c87d541cf5a0c4d8ebfe05',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name inok
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'inok',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'inok',
+26 silly mapToRegistry   name: 'inok',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/inok
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/agedney/.npm/inok/1.0.0/package.tgz
+30 verbose request uri https://registry.npmjs.org/inok
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 10:19:24 AM
+33 verbose request using bearer token for auth
+34 verbose request id b764a8b95ef6603b
+35 http request PUT https://registry.npmjs.org/inok
+36 http 403 https://registry.npmjs.org/inok
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '93',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Wed, 16 May 2018 14:19:25 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-mia17625-MIA',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1526480365.532108,VS0,VE533',
+37 verbose headers   vary: 'Accept-Encoding, Accept' }
+38 verbose request invalidating /Users/agedney/.npm/registry.npmjs.org/inok on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: You cannot publish over the previously published versions: 1.0.0. : inok
+40 verbose stack     at makeError (/Users/agedney/.nvm/versions/node/v6.12.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/Users/agedney/.nvm/versions/node/v6.12.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/Users/agedney/.nvm/versions/node/v6.12.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/Users/agedney/.nvm/versions/node/v6.12.2/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/Users/agedney/.nvm/versions/node/v6.12.2/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/Users/agedney/.nvm/versions/node/v6.12.2/lib/node_modules/npm/node_modules/request/request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid inok
+43 verbose cwd /Users/agedney/Sites/inok
+44 error Darwin 15.6.0
+45 error argv "/Users/agedney/.nvm/versions/node/v6.12.2/bin/node" "/Users/agedney/.nvm/versions/node/v6.12.2/bin/npm" "publish"
+46 error node v6.12.2
+47 error npm  v3.10.10
+48 error code E403
+49 error You cannot publish over the previously published versions: 1.0.0. : inok
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
